@@ -37,5 +37,5 @@ async def joke(ctx):
 
 
 
-bot.run(BOT_TOKEN)
+bot.run(TOKEN)
 
