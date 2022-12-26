@@ -1,10 +1,13 @@
+import os
+from dotenv import load_dotenv
 from discord.ext import commands
 import discord
 import time
 from src.get_joke import get_joke
 
 
-BOT_TOKEN = "MTA1NjY0Mzc3MzMyMjUwMjI3NA.GRMODx.AuyWmBXhODW7pqETxLTtSfGuI1rw5T3iHc28Pk"
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = 1056406916424810496
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
