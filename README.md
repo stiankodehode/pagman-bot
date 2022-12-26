@@ -1,2 +1,2 @@
-# pagman-bot
-discord bot
+# PagMan
+PagMan bot is a simple Discord bot
